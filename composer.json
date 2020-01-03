@@ -1,0 +1,17 @@
+{
+    "name": "gauss314/bsm",
+    "description": "Valuaci\u0000n de opciones por Balck, Scholes y Merton, griegas etc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gauss314",
+            "email": "jpp.programacion@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "gauss314\\bsm\\": "src/"
+      }
+    }
+}
