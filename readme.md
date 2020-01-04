@@ -1,6 +1,6 @@
 <h1 align="center"> Black and Scholes and Merton forms</h1>
 <p align="center">
-<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/latest.svg" alt="Version"></a>
+<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/stable.svg" alt=" Version"></a>
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/license" alt="License"></a>
 </p>
