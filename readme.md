@@ -41,9 +41,9 @@ $q = 0;
 $dividend_yield=0;
 
 /*
-    **************************
-    GET Call prime, and greeks
-    **************************
+**********************************************
+          GET Call prime, and greeks
+**********************************************
 */
 $call = $bsm->bsCall($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
 /*
@@ -61,9 +61,9 @@ $call = $bsm->bsCall($spot, $strike, $free_risk, $time, $sigma, $dividend_yield)
 
 
 /*
-    **************************
-    GET Put prime, and greeks
-    **************************
+**********************************************
+          GET Put prime, and greeks
+**********************************************
 */
 $put = $bsm->bsPut($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
 /*
@@ -79,9 +79,9 @@ $put = $bsm->bsPut($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
 */
 
 /*
-    ***********************
-    GET Implied volatility
-    ***********************
+**********************************************
+            GET Implied volatility
+**********************************************
 */
 
 $vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.84647
@@ -91,16 +91,17 @@ $vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.8464
 
 ### Configuration
 
-It doesnt need any configuration line :smile:
+It doesnt need any configuration line
 
 
-Enjoy it! :heart:  :arg:
+Enjoy it! :heart:  
 
+<br><br>
 # Reference
 
 - [Black & Scholes & Merton forms](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)
 
-
+<br><br>
 # License
 
 MIT
