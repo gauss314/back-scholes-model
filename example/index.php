@@ -7,13 +7,13 @@ $bsm = new \gauss314\bsm\Bsm();
 $spot=100;
 $strike=100;
 $free_risk=0.018;
-$tiempo=30/365;
+$time=30/365;
 $sigma=0.2;
 $prima_mkt=2;
 $q = 0;
 $dividend_yield=0;
 
-$call = $bsm->bsCall($spot, $strike, $free_risk, $tiempo, $sigma, $dividend_yield);
+$call = $bsm->bsCall($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
 /*
 Array
 (
@@ -26,7 +26,10 @@ Array
 )
 */
 
+$put = $bsm->bsPut($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
+echo "<pre>";
+print_r($put);
 
-$vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.84647
+$vi = $bsm->viCall($spot, $strike, $free_risk, $time, $prima_mkt);  // 16.84647
 
 ?>
