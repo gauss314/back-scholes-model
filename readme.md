@@ -1,5 +1,7 @@
 <h1 align="center"> Black and Scholes and Merton forms</h1>
 <p align="center">
+          [![Latest Stable Version](http://img.shields.io/badge/Latest%20Stable-1.0-blue.svg)](https://packagist.org/packages/gauss314/bsm)
+
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/stable.svg" alt=" Version"></a>
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/license" alt="License"></a>
