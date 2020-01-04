@@ -29,11 +29,11 @@ $bsm = new \gauss314\bsm\Bsm();
 // Parameters
 $spot=100;
 $strike=100;
-$free_risk=0.018;
-$time=30/365;
-$sigma=0.2;
-$prima_mkt=2; //only necesary for implied volatility calc
-$dividend_yield=0;  //not required, default value = 0
+$free_risk=0.018;     //free risk rate 1=100%
+$time=30/365;         //time year fraction 1=1yr
+$sigma=0.2;           //Annualized volatility 1=100%
+$mkt_value=2;         //Option market value, its only necessary for implied volatility calc
+$dividend_yield=0;    //not required, default value = 0
 
 /*
 **********************************************
@@ -79,7 +79,9 @@ $put = $bsm->bsPut($spot, $strike, $free_risk, $time, $sigma, $dividend_yield);
 **********************************************
 */
 
-$vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.84647
+$iv = $bsm->ivCall($spot, $strike, $free_risk, $tiempo, $mkt_value);  // 16.84647
+
+//Use ivPut() method to get implied volatility from put contract.
 
 ```
 

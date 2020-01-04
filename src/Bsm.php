@@ -60,7 +60,7 @@ class BSM {
   }
 
 
-  public function viCall($S0, $K, $r, $T, $prima, $q=0){
+  public function ivCall($S0, $K, $r, $T, $prima, $q=0){
     if ($S0 > 0 && $K > 0 && $r >= 0 && $T > 0){
       $maximasIteraciones = 300;
       $pr_techo = $prima;
@@ -88,7 +88,7 @@ class BSM {
 
 
 
-  public function viPut($S0, $K, $r, $T, $prima, $q=0){
+  public function ivPut($S0, $K, $r, $T, $prima, $q=0){
     if ($S0 > 0 && $K > 0 && $r >= 0 && $T > 0){
       $maximasIteraciones = 300;
       $pr_techo = $prima;
