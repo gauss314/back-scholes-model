@@ -1,6 +1,6 @@
 <h1 align="center"> Black and Scholes and Merton forms</h1>
 <p align="center">
-<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/stable.svg" alt="Latest Version"></a>
 <a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/gauss314/bsm/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/license" alt="License"></a>
 </p>
@@ -32,9 +32,8 @@ $strike=100;
 $free_risk=0.018;
 $time=30/365;
 $sigma=0.2;
-$prima_mkt=2;
-$q = 0;
-$dividend_yield=0;
+$prima_mkt=2; //only necesary for implied volatility calc
+$dividend_yield=0;  //not required, default value = 0
 
 /*
 **********************************************
@@ -86,7 +85,7 @@ $vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.8464
 
 <br>
 
-## Configuration
+# Configuration
 
 It doesnt need any configuration line
 
