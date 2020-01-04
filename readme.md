@@ -8,17 +8,12 @@
 
 <p align="center">A simple way to get options primes, greeks and implied volatility using Black&Scholes valuation model.</p>
 
-# Requirement
-
-```
-PHP >= 5.6
-```
 # Installation
 
 ```shell
 $ composer require "gauss314/bsm"
 ```
-
+<br>
 # Usage
 
 For Laravel 5, Symfony and any PHP project and framework with a composer.json file
@@ -88,20 +83,21 @@ $vi = $bsm->viCall($spot, $strike, $free_risk, $tiempo, $prima_mkt);  // 16.8464
 
 ```
 
+<br>
 
-### Configuration
+## Configuration
 
 It doesnt need any configuration line
 
 
 Enjoy it! :heart:  
 
-<br><br>
+<br>
 # Reference
 
 - [Black & Scholes & Merton forms](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)
 
-<br><br>
+<br>
 # License
 
 MIT
