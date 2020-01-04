@@ -14,6 +14,7 @@
 $ composer require "gauss314/bsm"
 ```
 <br>
+
 # Usage
 
 For Laravel 5, Symfony and any PHP project and framework with a composer.json file
@@ -93,11 +94,13 @@ It doesnt need any configuration line
 Enjoy it! :heart:  
 
 <br>
+
 # Reference
 
 - [Black & Scholes & Merton forms](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)
 
 <br>
+
 # License
 
 MIT
