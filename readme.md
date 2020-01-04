@@ -1,8 +1,8 @@
 <h1 align="center"> Black and Scholes and Merton forms</h1>
 <p align="center">
 <a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/v/stable.svg" alt="Latest Version"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/gauss314/bsm/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/overtrue/socialite"><img src="https://poser.pugx.org/overtrue/socialite/license" alt="License"></a>
+<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/gauss314/bsm"><img src="https://poser.pugx.org/gauss314/bsm/license" alt="License"></a>
 </p>
 
 
